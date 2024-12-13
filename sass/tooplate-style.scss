@@ -198,7 +198,7 @@ h2 {
 	.submit-btn {
 		background: $main-color;
 		border-radius: 50px;
-		color: white;
+		color: $text-white;
 		font-weight: $font-weight-bold;
 		border: 0;
 		cursor: pointer;
@@ -206,6 +206,16 @@ h2 {
 		&:hover {
 			background: $button-color;
 		}
+	}
+}
+
+.contact-info {
+	background: $button-color;
+	border-radius: 0 0 3px 3px;
+	position: relative;
+	bottom: 8px;
+	p, a {
+		color: #f7f3f3;
 	}
 }
 
